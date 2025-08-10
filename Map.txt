@@ -1,78 +1,63 @@
-Got it — I’ll merge everything into **one complete, finalized sources list** so you have:
-
-* All **previously finalized literature**
-* The **new 2024–2025 additions** we just integrated
-* Fully formatted in **Harvard style** with links
-* Grouped by thematic area for cohesion
+# Map.txt — Updated Integration (Ooi 2024, McKinsey 2024, Growbo 2025)
 
 ---
 
-## **Finalized Literature List – “Latent Customer Behaviour Segmentation in Online Retail Using Neural Embeddings and Unsupervised Clustering”**
+## **Newly Integrated Sources**
+
+### **Ooi et al. (2024, Cogent Engineering)**
+
+**Ref (Harvard):** Ooi, L.-Y., Ting, C.-Y., Zakariah, H. and Chandar, E. (2024) ‘Behavioural user segmentation of app users based on functionality interaction patterns’, *Cogent Engineering*, 11(1), 2430430. [https://doi.org/10.1080/23311916.2024.2430430](https://doi.org/10.1080/23311916.2024.2430430).
+
+**Summary:** Applied deep embeddings (autoencoder) to sparse app usage data, clustered with DBSCAN, validated with silhouette (\~0.36). Used SHAP + manual inspection to derive personas (Active User, COVID‑19 Preventer, Inactive, Average Joe).
+
+**Link to dissertation:** Directly parallels our embedding → clustering → interpretability pipeline. Shows how latent clusters can be narrativised into personas for UX/onboarding optimisation.
+
+**Placement:** Literature Review (embedding methods & interpretability), Discussion/Implications (journey design).
 
 ---
 
-### **1. Foundational & Classical Segmentation**
+### **McKinsey & Company (2024, Digital Marketing Report)**
 
-1. Tsiptsis, K. & Chorianopoulos, A. (2009) *Data Mining Techniques in CRM: Inside Customer Segmentation*. Wiley.
-2. Wedel, M. & Kamakura, W\.A. (2012) *Market Segmentation: Conceptual and Methodological Foundations*. Springer. DOI: [10.1007/978-1-4615-4651-1](https://doi.org/10.1007/978-1-4615-4651-1)
-3. Moe, W\.W. (2003) ‘Buying, searching, or browsing: Differentiating between online shoppers using in-store navigational clickstream’, *Journal of Consumer Psychology*, 13(1–2), pp. 29–39.
-4. Montgomery, A.L., Li, S., Srinivasan, K. & Liechty, J.C. (2004) ‘Modeling online browsing and path analysis using clickstream data’, *Marketing Science*, 23(4), pp. 579–595.
+**Ref (Harvard):** McKinsey & Company (2024) *\[Exact title of uploaded report]*. Growth, Marketing & Sales Practice. McKinsey & Company.
 
----
+**Summary:** Benchmarks AI‑powered segmentation/personalisation against traditional methods, showing higher engagement and lower CAC. Frames segmentation as a lever for both experience quality and efficiency.
 
-### **2. Embedding Theory & Models**
+**Link to dissertation:** Industry authority backing for indirect revenue loop — journey‑aligned segments improve satisfaction and engagement, reducing acquisition costs and boosting long‑term value.
 
-5. Mikolov, T., Chen, K., Corrado, G. & Dean, J. (2013) ‘Efficient estimation of word representations in vector space’, *arXiv preprint arXiv:1301.3781*.
-6. Le, Q. & Mikolov, T. (2014) ‘Distributed representations of sentences and documents’, *Proceedings of the 31st International Conference on Machine Learning (ICML)*, pp. 1188–1196.
-7. Reimers, N. & Gurevych, I. (2019) ‘Sentence-BERT: Sentence embeddings using Siamese BERT-networks’, *Proceedings of EMNLP 2019*, pp. 3982–3992.
-8. Bayrak, E. (2022) ‘An application of customer embedding for clustering’, *IEEE International Conference on Data Mining Workshops (ICDMW)*, pp. 1333–1340. DOI: [10.1109/ICDMW58026.2022.00019](https://doi.org/10.1109/ICDMW58026.2022.00019)
-9. Susanto, E., Hidayanto, A.N., Hasibuan, Z.A. & Prabowo, H. (2023) ‘Text vectorization techniques for trending topic clustering on Twitter: A comparative evaluation of TF-IDF, Doc2Vec, and Sentence-BERT’, *ICORIS 2023*, IEEE. DOI: [10.1109/ICORIS60118.2023.10352228](https://doi.org/10.1109/ICORIS60118.2023.10352228)
-10. Skotis, G. & Livas, C. (2024) ‘Prominent user segments in online recommendation communities: Capturing behavioral and linguistic qualities with user comment embeddings’, *Information*, 15(2), 93.
+**Placement:** Discussion (Managerial Implications), Executive Summary, Conclusion.
 
 ---
 
-### **3. Clustering Algorithms & Evaluation**
+### **Growbo (2025, Industry Blog)**
 
-11. Jain, A.K. (2010) ‘Data clustering: 50 years beyond K-means’, *Pattern Recognition Letters*, 31(8), pp. 651–666.
-12. Rousseeuw, P.J. (1987) ‘Silhouettes: A graphical aid to the interpretation and validation of cluster analysis’, *Journal of Computational and Applied Mathematics*, 20, pp. 53–65.
-13. Ester, M., Kriegel, H.-P., Sander, J. & Xu, X. (1996) ‘A density-based algorithm for discovering clusters in large spatial databases with noise’, *Proceedings of KDD-96*, pp. 226–231.
-14. Gomes, J.B. & Meisen, T. (2023) ‘A review on customer segmentation methods for personalized targeting in e-commerce’, *Information Systems and e-Business Management*, 21, pp. 1–32. DOI: [10.1007/s10257-023-00640-4](https://doi.org/10.1007/s10257-023-00640-4)
-15. Chen, X. & Güttel, S. (2024) ‘Fast and explainable clustering based on sorting’, *Pattern Recognition*, 150, 110298. DOI: [10.1016/j.patcog.2024.110298](https://doi.org/10.1016/j.patcog.2024.110298)
+**Ref (Harvard):** Ackerson, M. (2025) ‘Level Up Your Customer Segmentation Game in 2025’, *Growbo*. Available at: [https://www.growbo.com/customer-segmentation/](https://www.growbo.com/customer-segmentation/) (Accessed: \[date]).
 
----
+**Summary:** Summarises McKinsey 2024 and HubSpot 2024 stats — AI segmentation associated with \~86% higher engagement and \~40% lower CAC. Reflects industry consensus on value of advanced segmentation.
 
-### **4. Interpretability in Clustering**
+**Link to dissertation:** Useful as corroborative industry pulse; should be secondary to McKinsey primary data.
 
-16. Joung, J. & Kim, S. (2023) ‘Interpretable ML-based approach for customer segmentation from online product reviews’, *International Journal of Information Management*, 69, 102641.
-17. Talaat, M., et al. (2023) ‘DeepLimeSeg: Deep learning + XAI for customer segmentation’, *Mathematics*, 11(18), 3930.
-18. Alvarez-García, M., Arenas-Parra, M.M. & Ibar-Alonso, R. (2024) ‘Uncovering student profiles: An explainable cluster analysis approach to PISA 2022’, *Computers & Education*, 223, 105166. DOI: [10.1016/j.compedu.2024.105166](https://doi.org/10.1016/j.compedu.2024.105166)
-19. Shi, Y., Fei, Y., Zhang, S., Wang, H. & Xiao, X. (2025) ‘You are what you bought: Generating customer personas for e-commerce applications’, *Proceedings of SIGIR 2025*. arXiv: [2504.17304](https://arxiv.org/abs/2504.17304)
+**Placement:** Optional supporting citation in Discussion.
 
 ---
 
-### **5. Dynamic & Session-Based Modelling**
+## **Cross‑Source Synthesis**
 
-20. Wang, S., Sun, L. & Yu, Y. (2024) ‘A dynamic customer segmentation approach by combining LRFMS and multivariate time series clustering’, *Scientific Reports*, 14, 17491. [Nature](https://www.nature.com/articles/s41598-024-68621-2)
-21. Choi, M., Kim, H., Cho, H. & Lee, J. (2024) ‘Multi-intent-aware session-based recommendation’, *Proceedings of SIGIR 2024*. arXiv: [2405.00986](https://arxiv.org/abs/2405.00986)
-
----
-
-### **6. Supporting & Hardware Acceleration**
-
-22. Waidyasooriya, H.M. & Hariyama, M. (2024) ‘Performance evaluation of Word2Vec accelerators on FPGA (DDR/HBM)’, *The Journal of Supercomputing*, 80, pp. 1–24. DOI: [10.1007/s11227-024-06120-x](https://doi.org/10.1007/s11227-024-06120-x)
-23. Zhan, Q. (2025) ‘Comparative analysis of TF-IDF and Word2Vec in sentiment analysis: A case of food reviews’, *ITM Web of Conferences*, 61, 04001.
-24. Curiskis, S.A., Drake, B., Osborn, T.R. & Kennedy, P.J. (2019) ‘An evaluation of document clustering and topic modelling in two online social networks: Twitter and Reddit’, *Information Processing & Management*, 57(2), 102034.
+* **Latent → Persona → UX:** Ooi (2024) provides academic proof of concept for translating embeddings into personas guiding onboarding and feature flows.
+* **Engagement → Indirect Revenue:** McKinsey (2024) supplies quantitative evidence that journey‑optimised, segment‑aligned strategies drive engagement and cut CAC.
+* **Industry Consensus:** Growbo (2025) signals wider recognition and offers directional figures for narrative support.
 
 ---
 
-### 📊 **Count by Year**
+## **Integration Recommendations**
 
-* **2024–2025 (Latest):** 9
-* **2022–2023 (Recent):** 8
-* **Pre-2022 (Foundational):** 7
+1. **Lit Review:** Add Ooi (2024) to interpretability subsection, paired with Shi (2025) to show cross‑domain persona generation.
+2. **Managerial Implications:** Insert McKinsey (2024) stats to support indirect revenue argument; optionally reference Growbo (2025) for additional colour.
+3. **Dashboard Appendix:** Include cluster → persona mapping table; cite Ooi (2024) as precedent for persona naming and behavioural descriptors.
 
 ---
 
-If you’d like, I can now produce an **updated cohesion table** that maps **all 24 sources** to dissertation chapters, key contributions, and why they’re included — so you have both the **bibliography** and the **integration blueprint** ready for direct use.
+## **Harvard References (copy‑ready)**
 
-Do you want me to proceed with that?
+* Ooi, L.-Y., Ting, C.-Y., Zakariah, H. and Chandar, E. (2024) ‘Behavioural user segmentation of app users based on functionality interaction patterns’, *Cogent Engineering*, 11(1), 2430430. [https://doi.org/10.1080/23311916.2024.2430430](https://doi.org/10.1080/23311916.2024.2430430).
+* McKinsey & Company (2024) *\[Exact title of uploaded report]*. Growth, Marketing & Sales Practice. McKinsey & Company.
+* Ackerson, M. (2025) ‘Level Up Your Customer Segmentation Game in 2025’, *Growbo*. Available at: [https://www.growbo.com/customer-segmentation/](https://www.growbo.com/customer-segmentation/) (Accessed: \[date]).
